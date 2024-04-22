@@ -14,7 +14,6 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-    height: 50px; /* Consistent height */
     display: flex; /* Ensures all items are in line */
     justify-content: space-evenly; /* Evenly spaces navbar items */
 }
