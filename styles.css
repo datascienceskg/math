@@ -94,6 +94,7 @@ iframe {
         width: 100%;
     }
     .navbar {
+        flex-direction: column;
         height: auto; /* Allows the navbar to expand to fit content */
     }
     iframe {
