@@ -115,7 +115,7 @@ iframe {
     }
 
     .container {
-        margin-top: 100px; /* Increase top margin when navbar is thicker */
+        margin-top: 80px; /* Increase top margin when navbar is thicker */
         padding: 20px; /* Reduce padding for smaller screens */
     }
 
