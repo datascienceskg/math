@@ -14,21 +14,21 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-    height: 50px;
+    height: 50px; /* Consistent height */
+    display: flex; /* Ensures all items are in line */
+    justify-content: space-evenly; /* Evenly spaces navbar items */
 }
 
 .navbar a {
-    float: left;
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 15px 20px;
     text-decoration: none;
+    display: block; /* Ensures links are correctly block-level for spacing */
 }
 
 .navbar a:hover {
     background-color: #555;
-    color: white;
 }
 
 /* Skip Link styles for accessibility */
@@ -98,7 +98,8 @@ iframe {
         text-align: left;
     }
     .navbar {
-        height: 50px; /* Corrected unit */
+        flex-direction: column; /* Stacks the navbar links vertically */
+        height: auto; /* Allows the navbar to expand to fit content */
     }
     iframe {
         width: 100%;
