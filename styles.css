@@ -62,7 +62,9 @@ body {
         width: 100%;
         height: 300px; /* Adjust based on your design preference */
     }
-
+    .container {
+    margin-top: 100px; 
+}
 }
 
 .container {
@@ -117,7 +119,7 @@ iframe {
     }
 
     .container {
-        margin-top: 80px; /* Increase top margin when navbar is thicker */
+        margin-top: 100px; /* Increase top margin when navbar is thicker */
         padding: 20px; /* Reduce padding for smaller screens */
     }
 
