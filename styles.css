@@ -56,7 +56,7 @@ body {
     text-align: left;
 }
     .navbar {
-        height: auto; 
+        height: 50; 
     }
     iframe {
         width: 100%;
@@ -118,7 +118,7 @@ iframe {
 
     .container {
         margin-top: 80px; /* Increase top margin when navbar is thicker */
-        padding: 10px; /* Reduce padding for smaller screens */
+        padding: 20px; /* Reduce padding for smaller screens */
     }
 
     h1, h2 {
