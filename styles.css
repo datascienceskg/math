@@ -92,10 +92,8 @@ iframe {
 @media (max-width: 768px) {
     .navbar a {
         width: 100%;
-        text-align: left;
     }
     .navbar {
-        flex-direction: column; /* Stacks the navbar links vertically */
         height: auto; /* Allows the navbar to expand to fit content */
     }
     iframe {
@@ -106,7 +104,6 @@ iframe {
 
 @media (max-width: 480px) {
     .navbar a {
-        text-align: left;
         width: 100%; /* Make navbar links stack vertically on smaller screens */
     }
 
