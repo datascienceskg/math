@@ -49,8 +49,11 @@ body {
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .navbar a {
-        padding: 10px 15px; /* Adjust padding for smaller screens */
-    }
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
     
     iframe {
         width: 100%;
