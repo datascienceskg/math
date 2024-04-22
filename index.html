@@ -5,86 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ανάλυση Δεδομένων</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #def3fa;
-            color: #333;
-        }
-        .navbar {
-            background-color: #333;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-        }
-        .navbar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        .navbar a:hover {
-            background-color: #555;
-            color: white;
-        }
-        .container {
-            padding: 20px;
-            margin-top: 60px; /* Adjusted for fixed navbar */
-            clear: both;
-        }
-        .project, .contact {
-            background-color: white;
-            padding: 20px;
-            margin-top: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border-radius: 5px;
-        }
-        iframe {
-            width: 100%;
-            height: 500px; /* Adjusted height */
-            border: none;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo1.png">
 </head>
 <body>
-    <div class="navbar">
+    <a href="#Αρχική" class="skip-link">Skip to main content</a>
+    <nav class="navbar">
         <a href="#Αρχική">Αρχική</a>
         <a href="#Πρότζεκτ">Πρότζεκτ</a>
         <a href="#Επικοινωνία">Επικοινωνία</a>
-    </div>
-
-    <div class="container" id="Αρχική">
+    </nav>
+    
+    <main class="container" id="Αρχική">
         <h1>Εργασίες και πρακτικές ασκήσεις στην Ανάλυση Δεδομένων και την Στατιστική</h1>
-        <p>Καλώς ήρθες στην σελίδα μου!</p> 
-        <p>Ονομάζομαι Κωνσταντίνος και είμαι απόφοιτος του προπτυχιακού προγράμματος σπουδών στα Μαθηματικά (Α.Π.Θ.), καθώς και μεταπτυχιακού προγράμματος
-            στον ευρύτερο χώρο της Επιστήμης των Δεδομένων. Αναλαμβάνω ασκήσεις και εργασίες βάσει των παρακάτω επιστημονικών θεματικών:</p>
+        <p>Καλώς ήρθες στην σελίδα μου! Ονομάζομαι Κωνσταντίνος και είμαι απόφοιτος του προπτυχιακού προγράμματος σπουδών στα Μαθηματικά (Α.Π.Θ.), καθώς και μεταπτυχιακού προγράμματοςστον ευρύτερο χώρο της Επιστήμης των Δεδομένων. Αναλαμβάνω ασκήσεις και εργασίες βάσει των παρακάτω επιστημονικών θεματικών:</p>
         <ul>
-        <li>Θεωρία Πιθανοτήτων και Στατιστική</li>
-        <li>Ανάλυση Δεδομένων</li>
-        <li>Έλεγχοι Υποθέσεων</li>
-        <li>Οπτικοποιήσεις</li>
-        <li>Μηχανική Μάθηση και Τεχνητή Νοημοσύνη</li>
-        <li>Βάσεις Δεδομένων</li>
-        </ul>
+            <li>Θεωρία Πιθανοτήτων και Στατιστική</li>
+            <li>Ανάλυση Δεδομένων</li>
+            <li>Έλεγχοι Υποθέσεων</li>
+            <li>Οπτικοποιήσεις</li>
+            <li>Μηχανική Μάθηση και Τεχνητή Νοημοσύνη</li>
+            <li>Βάσεις Δεδομένων</li>
+            </ul>
         <p>Χρησιμοποιώντας, κυρίως, τα παρακάτω προγραμματιστικά περιβάλλοντα και εργαλεία:</p>
         <ul>
-        <li>R</li>
-        <li>Python</li>
-        <li>SQL</li>
-        <li>Matlab</li>
-        <li>κ.α.</li>
-        </ul>
+            <li>R</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Matlab</li>
+            <li>κ.α.</li>
+            </ul>
         <p>Ρίξε μια ματιά παρακάτω για να τσεκάρεις μερικά παραδείγματα, καθώς και να βρεις τα στοιχεία επικοινωνίας μου!</p>
-    </div>
-
-    <div class="container" id="Πρότζεκτ">
+    </main>
+    
+    <section class="container" id="Πρότζεκτ">
         <h2>1: Προτετοιμασία και καθαρισμός Δεδομένων</h2>
         <p>Πρώτο στάδιο σε κάθε πρότζεκτ που περιλαμβάνει οποιασδήποτε φύσεως δεδομένα αποτελεί η κατάλληλη προετοιμασία τους. Αυτό συμβαίνει καθώς τις περισσότερες
             φορές που εργαζόμαστε με δεδομένα που αντλούμε από τον πραγματικό κόσμο, αυτά είναι πιθανό να περιέχουν ατέλειες και ανωμαλίες.
@@ -92,7 +46,6 @@
             (handling NA values), την αντιμετώπιση των διπλότυπων εγγραφών (duplicate values),
             την αντιμετώπιση των ακραίων τιμών (outliers) και την μετατροπή των δεδομένων σε μορφή που να είναι κατάλληλη (data type corrections) 
             για την μετέπειτα ανάλυση και μοντελοποίηση τους. Παρακάτω, παρατηρούμε ένα σύνολο δεδομένων πριν και μετά την προετοιμασία και καθαρισμό του.</p>
-        </p>
         <p>Πριν την προτετοιμασία</p>
         <div style="display: flex; justify-content: space-between;">
             <iframe src="missing1.html" width="49%" height="100%"></iframe>
@@ -103,9 +56,7 @@
             <iframe src="notmissing1.html" width="49%" height="100%"></iframe>
             <iframe src="notmissing2.html" width="49%" height="100%"></iframe>
         </div>
-    </div>
-
-    <div class="container" id="Πρότζεκτ">
+    
         <h2>2: Ανάλυση Δεδομένων και Στατιστική</h2>
         <p>Η στατιστική ανάλυση αποτελεί, συνήθως, το κύριο μέρος σε ένα πρότζεκτ στον κλάδο της Στατιστικής και της ανάλυσης δεδομένων,
             καθώς ασχολείται με την περιγραφή, την ερμηνεία και την εξαγωγή συμπερασμάτων από τα δεδομένα. Περιλαμβάνει την εφαρμογή των κατάλληλων 
@@ -115,45 +66,52 @@
             Ενδεικτικά, το κομμάτι της ανάλυσης μπορεί να περιέχει την εφαρμογή περιγραφικής στατιστικής, τη διενέργεια ελέγχων υποθέσεων, 
             την εφαρμογή μεθόδων πολλαπλής συγκριτικής ανάλυσης μέσω γραφημάτων, την εφαρμογή μεθόδων πολλαπλής γραμμικής παλινδρόμησης, τη δημιουργία μοντέλων πρόβλεψης με αλγόριθμους μηχανικής μάθησης κ.α.
             Παρακάτω, ξεχωρίζουμε μερικά ενδεικτικά συγκριτικά γραφήματα μεταξύ διαφορετικού τύπου ζευγαριών μεταβλητών.</p>
-        </p>
         <p>Ποιοτικές μεταβλητές</p>
         <iframe src="categorical_categorical.html" width="100%" height="100%"></iframe>
         <p>Ποσοτικές μεταβλητές</p>
         <iframe src="3_numerical.html" width="100%" height="100%"></iframe>
-        <p>Ποιοτικές - Ποσοτικές μεταβλητές</p>
+        <p>Ποιοτική - Ποσοτική μεταβλητή</p>
+        <iframe src="numerical_bycat.html" width="100%" height="100%"></iframe>
+        <p>Ποιοτική - Ποσοτικές μεταβλητές</p>
         <iframe src="numerical_numerical_bycat.html" width="100%" height="100%"></iframe>
         <p>Χάρτης Πληροφορίας / Πίνακας συσχετίσεων</p>
-        <iframe src="pheatmap3.html" width="50%" height="100%"></iframe>
-    </div>
+        <iframe src="pheatmap3.html" width="100%" height="100%"></iframe>
 
-    <div class="container" id="Πρότζεκτ">
-        <h2>3: Και...πολλά άλλα </h2>
+        <h2>3: Και...πολλά άλλα</h2>
         <p>Στον κόσμο της επιστήμης των Δεδομένων (Data science), οι εφαρμογές δεν περιορίζονται σε μια μονόπλευρη στείρα ανάλυση ή σε κάποιο συγκεκριμένο μόνο πεδίο μεταβλητών (π.χ. δημογραφικές).
             Η ικανότητα προσαρμογής μας στις ανάγκες του προβλήματος και η ευελιξία μας στην επιλογή των κατάλληλων εργαλείων και μεθόδων αποτελούν τον πυρήνα της επιτυχίας μας. Στη συνέχεια, θα δεις 
             τέτοια παραδείγματα από την πρακτική μου εμπειρία με μοντελοποιήσεις:</p>
         <ul>
-        <li>Χρονολογικών δεδομένων (Time series)</li>
-        <li>Γεωχωρικών δεδομένων (Geospatial data)</li>
-        <li>Δικτύων / Γράφων (Networks / Graphs)</li>
-        </ul>
-        <p>Χρονοσειρές</p>
-        <iframe src="time_series_plotly.html" width="100%" height="100%"></iframe>
-        <p>Γεωγραφικά δεδομένα</p>
-        <iframe src="worldmap2.html" width="100%" height="100%"></iframe>
-        <p>Δίκτυα / Γράφοι</p>
-        <div style="display: flex; justify-content: space-between;">
-            <iframe src="graphexample.png" width="49%" height="100%"></iframe>
-            <iframe src="info_gain_coms.png" width="49%" height="100%"></iframe>
-        </div>
-
-    </div>
-
+            <li>Χρονολογικών δεδομένων (Time series)</li>
+            <li>Γεωχωρικών δεδομένων (Geospatial data)</li>
+            <li>Δικτύων / Γράφων (Networks / Graphs)</li>
+            </ul>
+            <p>Χρονοσειρές</p>
+            <iframe src="time_series_plotly.html" width="100%" height="100%"></iframe>
+            <p>Δίκτυα / Γράφοι</p>
+            <div style="display: flex; justify-content: space-between;">
+                <iframe src="graphexample.png" width="33%" height="100%"></iframe>
+                <iframe src="info_gain_coms.png" width="33%" height="100%"></iframe>
+                <iframe src="graph3.jpg" width="33%" height="100%"></iframe>
+            </div>
+            <p>Γεωγραφικά δεδομένα</p>
+            <iframe src="worldmap2.html" width="100%" height="100%"></iframe>
+    </section>
+    
     <div class="container" id="Επικοινωνία">
         <h2>Στοιχεία επικοινωνίας</h2>
+        <p><strong>Κωνσταντίνος</strong> - Μαθηματικά &amp; Ανάλυση Δεδομένων</p>
         <p>Αν θες περαιτέρω πληροφορίες, μην διστάσεις να επικοινωνήσουμε!</p>
         <p>Email: <a href="mailto:kostasmath97@gmail.com">kostasmath97@gmail.com</a></p>
         <p>Discord: <a href="https://discordapp.com/users/1229432591191380059">Discord</a></p>
     </div>
-</body>
 
+    <form action="submit_form.php" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Όνομα" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Μήνυμα" required></textarea>
+        <button type="submit">Υποβολή</button>
+    </form>
+
+</body>
 </html>
