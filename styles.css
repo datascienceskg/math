@@ -15,16 +15,19 @@ body {
     width: 100%;
     z-index: 1000;
     display: flex; 
-    height: 50px;
+    height: 50px; /* Default height */
     justify-content: space-evenly; 
+    align-items: center; /* Centers items vertically in the navbar */
 }
 
+/* Ensuring links are properly styled */
 .navbar a {
     color: white;
-    text-align: center;
+    text-align: left; /* Align text left for all views */
     padding: 15px 20px;
     text-decoration: none;
-    display: block; 
+    display: block; /* Allows width to take effect */
+    box-sizing: border-box; /* Includes padding in width calculation */
 }
 
 .navbar a:hover {
@@ -88,42 +91,33 @@ iframe {
     background-color: #555;
 }
 
-/* Responsive design for smaller screens */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-    .navbar a {
-        width: 100%;
-    }
     .navbar {
         flex-direction: column;
-        height: 60px;
+        height: auto; /* Height adjusts to content */
+        padding-bottom: 10px; /* Add padding to bottom for space */
     }
-    iframe {
-        width: 100%;
-        height: 300px;
+    .navbar a {
+        width: 100%; /* Full width for a stack */
+        text-align: left; /* Ensure text is left aligned */
     }
     .container, main {
-        margin-top: 70px; 
+        margin-top: 100px; /* Increased top margin to account for taller navbar */
     }
 }
-
 @media (max-width: 480px) {
     .navbar a {
-        width: 100%; /* Make navbar links stack vertically on smaller screens */
+        width: 100%; /* Full width for a stack */
     }
-
     .container, main {
-        margin-top: 70px; 
+        margin-top: 100px; /* Ensures content is pushed down */
     }
-
     h1, h2 {
-        font-size: 18px; /* Reduce font size for better readability on small devices */
+        font-size: 18px; /* Smaller fonts for headers */
     }
-
-    ul {
-        padding-left: 20px; /* Ensure padding for list items */
-    }
-
-    p, li {
-        font-size: 14px; /* Adjust font size for readability on smaller devices */
+    ul, p, li {
+        font-size: 14px; /* Smaller fonts for text */
+        padding-left: 20px; /* Padding for lists */
     }
 }
