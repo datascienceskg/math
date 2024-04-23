@@ -105,6 +105,10 @@ iframe {
     .container, main {
         margin-top: 100px; /* Increased top margin to account for taller navbar */
     }
+    iframe {
+        width: 100%;
+        height: auto; 
+    }
 }
 @media (max-width: 480px) {
     .navbar a {
