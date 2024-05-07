@@ -51,7 +51,10 @@ body {
     .navbar a {
         padding: 8px 10px; /* Adjust padding for smaller screens */
     }
-    
+    .container {
+        margin-top: 80px; /* Increase this value to create more space */
+        padding: 15px;
+    }
     iframe {
         width: 100%;
         height: 300px; /* Adjust based on your design preference */
@@ -111,7 +114,7 @@ iframe {
     }
 
     .container {
-        margin-top: 80px; /* Increase top margin when navbar is thicker */
+        margin-top: 100px; /* Increase top margin when navbar is thicker */
         padding: 10px; /* Reduce padding for smaller screens */
     }
 
